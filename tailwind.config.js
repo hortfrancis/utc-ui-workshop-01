@@ -7,6 +7,9 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        sans: ['Recursive', 'system-ui', 'sans-serif'],
+      },
       colors: {
         'theme-cyan': 'var(--theme-cyan)',
         'theme-orange': 'var(--theme-orange)',
